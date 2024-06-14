@@ -548,8 +548,10 @@ int main(){
     }
 
     else if(mCode==0)
+    {
+        cout<<"Thanks for using the system";
 		return 0;
-
+    }
     else goto mLabel;
 }
 
